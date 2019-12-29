@@ -177,7 +177,7 @@ namespace ColorNames
         {
             List<string> colorList = new List<string>();
 
-            for (byte i = 0; i < 159; i++)
+            for (byte i = 0; i <= 159; i++)
             {
                 colorList.Add(FetchColorName(i));
             }
