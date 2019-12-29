@@ -5,493 +5,172 @@ namespace ColorNames
 {
 	public class ColorNames
 	{
-		public static string FetchColorName(byte colorId)
+		 public static string FetchColorName(byte colorId)
         {
-            switch (colorId)
+            return colorId switch
             {
-                case 0:
-                    return "Metallic Black";
-
-                case 1:
-                    return "Metallic Graphite Black";
-
-                case 2:
-                    return "Metallic Black Steal";
-
-                case 3:
-                    return "Metallic Dark Silver";
-
-                case 4:
-                    return "Metallic Silver";
-
-                case 5:
-                    return "Metallic Blue Silver";
-
-                case 6:
-                    return "Metallic Steel Gray";
-
-                case 7:
-                    return "Metallic Shadow Silver";
-
-                case 8:
-                    return "Metallic Stone Silver";
-
-                case 9:
-                    return "Metallic Midnight Silver";
-
-                case 10:
-                    return "Metallic Gun Metal";
-
-                case 11:
-                    return "Metallic Anthracite Grey";
-
-                case 12:
-                    return "Matte Black";
-
-                case 13:
-                    return "Matte Gray";
-
-                case 14:
-                    return "Matte Light Grey";
-
-                case 15:
-                    return "Util Black";
-
-                case 16:
-                    return "Util Black Poly";
-
-                case 17:
-                    return "Util Dark silver";
-
-                case 18:
-                    return "Util Silver";
-
-                case 19:
-                    return "Util Gun Metal";
-
-                case 20:
-                    return "Util Shadow Silver";
-
-                case 21:
-                    return "Worn Black";
-
-                case 22:
-                    return "Worn Graphite";
-
-                case 23:
-                    return "Worn Silver Grey";
-
-                case 24:
-                    return "Worn Silver";
-
-                case 25:
-                    return "Worn Blue Silver";
-
-                case 26:
-                    return "Worn Shadow Silver";
-
-                case 27:
-                    return "Metallic Red";
-
-                case 28:
-                    return "Metallic Torino Red";
-
-                case 29:
-                    return "Metallic Formula Red";
-
-                case 30:
-                    return "Metallic Blaze Red";
-
-                case 31:
-                    return "Metallic Graceful Red";
-
-                case 32:
-                    return "Metallic Garnet Red";
-
-                case 33:
-                    return "Metallic Desert Red";
-
-                case 34:
-                    return "Metallic Cabernet Red";
-
-                case 35:
-                    return "Metallic Candy Red";
-
-                case 36:
-                    return "Metallic Sunrise Orange";
-
-                case 37:
-                    return "Metallic Classic Gold";
-
-                case 38:
-                    return "Metallic Orange";
-
-                case 39:
-                    return "Matte Red";
-
-                case 40:
-                    return "Matte Dark Red";
-
-                case 41:
-                    return "Matte Orange";
-
-                case 42:
-                    return "Matte Yellow";
-
-                case 43:
-                    return "Util Red";
-
-                case 44:
-                    return "Util Bright Red";
-
-                case 45:
-                    return "Util Garnet Red";
-
-                case 46:
-                    return "Worn Red";
-
-                case 47:
-                    return "Worn Golden Red";
-
-                case 48:
-                    return "Worn Dark Red";
-
-                case 49:
-                    return "Metallic Dark Green";
-
-                case 50:
-                    return "Metallic Racing Green";
-
-                case 51:
-                    return "Metallic Sea Green";
-
-                case 52:
-                    return "Metallic Olive Green";
-
-                case 53:
-                    return "Metallic Green";
-
-                case 54:
-                    return "Metallic Gasoline Blue Green";
-
-                case 55:
-                    return "Matte Lime Green";
-
-                case 56:
-                    return "Util Dark Green";
-
-                case 57:
-                    return "Util Green";
-
-                case 58:
-                    return "Worn Dark Green";
-
-                case 59:
-                    return "Worn Green";
-
-                case 60:
-                    return "Worn Sea Wash";
-
-                case 61:
-                    return "Metallic Midnight Blue";
-
-                case 62:
-                    return "Metallic Dark Blue";
-
-                case 63:
-                    return "Metallic Saxony Blue";
-
-                case 64:
-                    return "Metallic Blue";
-
-                case 65:
-                    return "Metallic Mariner Blue";
-
-                case 66:
-                    return "Metallic Harbor Blue";
-
-                case 67:
-                    return "Metallic Diamond Blue";
-
-                case 68:
-                    return "Metallic Surf Blue";
-
-                case 69:
-                    return "Metallic Nautical Blue";
-
-                case 70:
-                    return "Metallic Bright Blue";
-
-                case 71:
-                    return "Metallic Purple Blue";
-
-                case 72:
-                    return "Metallic Spinnaker Blue";
-
-                case 73:
-                    return "Metallic Ultra Blue";
-
-                case 74:
-                    return "Metallic Bright Blue";
-
-                case 75:
-                    return "Util Dark Blue";
-
-                case 76:
-                    return "Util Midnight Blue";
-
-                case 77:
-                    return "Util Blue";
-
-                case 78:
-                    return "Util Sea Foam Blue";
-
-                case 79:
-                    return "Util Lightning Blue";
-
-                case 80:
-                    return "Util Maui Blue Poly";
-
-                case 81:
-                    return "Util Bright Blue";
-
-                case 82:
-                    return "Matte Dark Blue";
-
-                case 83:
-                    return "Matte Blue";
-
-                case 84:
-                    return "Matte Midnight Blue";
-
-                case 85:
-                    return "Worn Dark blue";
-
-                case 86:
-                    return "Worn Blue";
-
-                case 87:
-                    return "Worn Light blue";
-
-                case 88:
-                    return "Metallic Taxi Yellow";
-
-                case 89:
-                    return "Metallic Race Yellow";
-
-                case 90:
-                    return "Metallic Bronze";
-
-                case 91:
-                    return "Metallic Yellow Bird";
-
-                case 92:
-                    return "Metallic Lime";
-
-                case 93:
-                    return "Metallic Champagne";
-
-                case 94:
-                    return "Metallic Pueblo Beige";
-
-                case 95:
-                    return "Metallic Dark Ivory";
-
-                case 96:
-                    return "Metallic Choco Brown";
-
-                case 97:
-                    return "Metallic Golden Brown";
-
-                case 98:
-                    return "Metallic Light Brown";
-
-                case 99:
-                    return "Metallic Straw Beige";
-
-                case 100:
-                    return "Metallic Moss Brown";
-
-                case 101:
-                    return "Metallic Biston Brown";
-
-                case 102:
-                    return "Metallic Beechwood";
-
-                case 103:
-                    return "Metallic Dark Beechwood";
-
-                case 104:
-                    return "Metallic Choco Orange";
-
-                case 105:
-                    return "Metallic Beach Sand";
-
-                case 106:
-                    return "Metallic Sun Bleeched Sand";
-
-                case 107:
-                    return "Metallic Cream";
-
-                case 108:
-                    return "Util Brown";
-
-                case 109:
-                    return "Util Medium Brown";
-
-                case 110:
-                    return "Util Light Brown";
-
-                case 111:
-                    return "Metallic White";
-
-                case 112:
-                    return "Metallic Frost White";
-
-                case 113:
-                    return "Worn Honey Beige";
-
-                case 114:
-                    return "Worn Brown";
-
-                case 115:
-                    return "Worn Dark Brown";
-
-                case 116:
-                    return "Worn straw beige";
-
-                case 117:
-                    return "Brushed Steel";
-
-                case 118:
-                    return "Brushed Black steel";
-
-                case 119:
-                    return "Brushed Aluminum";
-
-                case 120:
-                    return "Chrome";
-
-                case 121:
-                    return "Worn Off White";
-
-                case 122:
-                    return "Util Off White";
-
-                case 123:
-                    return "Worn Orange";
-
-                case 124:
-                    return "Worn Light Orange";
-
-                case 125:
-                    return "Metallic Securicor Green";
-
-                case 126:
-                    return "Worn Taxi Yellow";
-
-                case 127:
-                    return "Police Car Blue";
-
-                case 128:
-                    return "Matte Green";
-
-                case 129:
-                    return "Matte Brown";
-
-                case 130:
-                    return "Worn Orange";
-
-                case 131:
-                    return "Matte White";
-
-                case 132:
-                    return "Worn White";
-
-                case 133:
-                    return "Worn Olive Army Green";
-
-                case 134:
-                    return "Pure White";
-
-                case 135:
-                    return "Hot Pink";
-
-                case 136:
-                    return "Salmon pink";
-
-                case 137:
-                    return "Metallic Vermillion Pink";
-
-                case 138:
-                    return "Orange";
-
-                case 139:
-                    return "Green";
-
-                case 140:
-                    return "Blue";
-
-                case 141:
-                    return "Mettalic Black Blue";
-
-                case 142:
-                    return "Metallic Black Purple";
-
-                case 143:
-                    return "Metallic Black Red";
-
-                case 144:
-                    return "Hunter Green";
-
-                case 145:
-                    return "Metallic Purple";
-
-                case 146:
-                    return "Metallic V Dark Blue";
-
-                case 147:
-                    return "Modshop Black";
-
-                case 148:
-                    return "Matte Purple";
-
-                case 149:
-                    return "Matte Dark Purple";
-
-                case 150:
-                    return "Metallic Lava Red";
-
-                case 151:
-                    return "Matte Forest Green";
-
-                case 152:
-                    return "Matte Olive Drab";
-
-                case 153:
-                    return "Matte Desert Brown";
-
-                case 154:
-                    return "Matte Desert Tan";
-
-                case 155:
-                    return "Matte Foilage Green";
-
-                case 156:
-                    return "Alloy";
-
-                case 157:
-                    return "Epsilon Blue";
-
-                case 158:
-                    return "Pure Gold";
-
-                case 159:
-                    return "Brushed Gold";
-
-                default:
-                    return "Metallic Black";
-            }
+                0 => "Metallic Black",
+                1 => "Metallic Graphite Black",
+                2 => "Metallic Black Steal",
+                3 => "Metallic Dark Silver",
+                4 => "Metallic Silver",
+                5 => "Metallic Blue Silver",
+                6 => "Metallic Steel Gray",
+                7 => "Metallic Shadow Silver",
+                8 => "Metallic Stone Silver",
+                9 => "Metallic Midnight Silver",
+                10 => "Metallic Gun Metal",
+                11 => "Metallic Anthracite Grey",
+                12 => "Matte Black",
+                13 => "Matte Gray",
+                14 => "Matte Light Grey",
+                15 => "Util Black",
+                16 => "Util Black Poly",
+                17 => "Util Dark silver",
+                18 => "Util Silver",
+                19 => "Util Gun Metal",
+                20 => "Util Shadow Silver",
+                21 => "Worn Black",
+                22 => "Worn Graphite",
+                23 => "Worn Silver Grey",
+                24 => "Worn Silver",
+                25 => "Worn Blue Silver",
+                26 => "Worn Shadow Silver",
+                27 => "Metallic Red",
+                28 => "Metallic Torino Red",
+                29 => "Metallic Formula Red",
+                30 => "Metallic Blaze Red",
+                31 => "Metallic Graceful Red",
+                32 => "Metallic Garnet Red",
+                33 => "Metallic Desert Red",
+                34 => "Metallic Cabernet Red",
+                35 => "Metallic Candy Red",
+                36 => "Metallic Sunrise Orange",
+                37 => "Metallic Classic Gold",
+                38 => "Metallic Orange",
+                39 => "Matte Red",
+                40 => "Matte Dark Red",
+                41 => "Matte Orange",
+                42 => "Matte Yellow",
+                43 => "Util Red",
+                44 => "Util Bright Red",
+                45 => "Util Garnet Red",
+                46 => "Worn Red",
+                47 => "Worn Golden Red",
+                48 => "Worn Dark Red",
+                49 => "Metallic Dark Green",
+                50 => "Metallic Racing Green",
+                51 => "Metallic Sea Green",
+                52 => "Metallic Olive Green",
+                53 => "Metallic Green",
+                54 => "Metallic Gasoline Blue Green",
+                55 => "Matte Lime Green",
+                56 => "Util Dark Green",
+                57 => "Util Green",
+                58 => "Worn Dark Green",
+                59 => "Worn Green",
+                60 => "Worn Sea Wash",
+                61 => "Metallic Midnight Blue",
+                62 => "Metallic Dark Blue",
+                63 => "Metallic Saxony Blue",
+                64 => "Metallic Blue",
+                65 => "Metallic Mariner Blue",
+                66 => "Metallic Harbor Blue",
+                67 => "Metallic Diamond Blue",
+                68 => "Metallic Surf Blue",
+                69 => "Metallic Nautical Blue",
+                70 => "Metallic Bright Blue",
+                71 => "Metallic Purple Blue",
+                72 => "Metallic Spinnaker Blue",
+                73 => "Metallic Ultra Blue",
+                74 => "Metallic Bright Blue",
+                75 => "Util Dark Blue",
+                76 => "Util Midnight Blue",
+                77 => "Util Blue",
+                78 => "Util Sea Foam Blue",
+                79 => "Util Lightning Blue",
+                80 => "Util Maui Blue Poly",
+                81 => "Util Bright Blue",
+                82 => "Matte Dark Blue",
+                83 => "Matte Blue",
+                84 => "Matte Midnight Blue",
+                85 => "Worn Dark blue",
+                86 => "Worn Blue",
+                87 => "Worn Light blue",
+                88 => "Metallic Taxi Yellow",
+                89 => "Metallic Race Yellow",
+                90 => "Metallic Bronze",
+                91 => "Metallic Yellow Bird",
+                92 => "Metallic Lime",
+                93 => "Metallic Champagne",
+                94 => "Metallic Pueblo Beige",
+                95 => "Metallic Dark Ivory",
+                96 => "Metallic Choco Brown",
+                97 => "Metallic Golden Brown",
+                98 => "Metallic Light Brown",
+                99 => "Metallic Straw Beige",
+                100 => "Metallic Moss Brown",
+                101 => "Metallic Biston Brown",
+                102 => "Metallic Beechwood",
+                103 => "Metallic Dark Beechwood",
+                104 => "Metallic Choco Orange",
+                105 => "Metallic Beach Sand",
+                106 => "Metallic Sun Bleeched Sand",
+                107 => "Metallic Cream",
+                108 => "Util Brown",
+                109 => "Util Medium Brown",
+                110 => "Util Light Brown",
+                111 => "Metallic White",
+                112 => "Metallic Frost White",
+                113 => "Worn Honey Beige",
+                114 => "Worn Brown",
+                115 => "Worn Dark Brown",
+                116 => "Worn straw beige",
+                117 => "Brushed Steel",
+                118 => "Brushed Black steel",
+                119 => "Brushed Aluminum",
+                120 => "Chrome",
+                121 => "Worn Off White",
+                122 => "Util Off White",
+                123 => "Worn Orange",
+                124 => "Worn Light Orange",
+                125 => "Metallic Securicor Green",
+                126 => "Worn Taxi Yellow",
+                127 => "Police Car Blue",
+                128 => "Matte Green",
+                129 => "Matte Brown",
+                130 => "Worn Orange",
+                131 => "Matte White",
+                132 => "Worn White",
+                133 => "Worn Olive Army Green",
+                134 => "Pure White",
+                135 => "Hot Pink",
+                136 => "Salmon pink",
+                137 => "Metallic Vermillion Pink",
+                138 => "Orange",
+                139 => "Green",
+                140 => "Blue",
+                141 => "Mettalic Black Blue",
+                142 => "Metallic Black Purple",
+                143 => "Metallic Black Red",
+                144 => "Hunter Green",
+                145 => "Metallic Purple",
+                146 => "Metallic V Dark Blue",
+                147 => "Modshop Black",
+                148 => "Matte Purple",
+                149 => "Matte Dark Purple",
+                150 => "Metallic Lava Red",
+                151 => "Matte Forest Green",
+                152 => "Matte Olive Drab",
+                153 => "Matte Desert Brown",
+                154 => "Matte Desert Tan",
+                155 => "Matte Foilage Green",
+                156 => "Alloy",
+                157 => "Epsilon Blue",
+                158 => "Pure Gold",
+                159 => "Brushed Gold",
+                _ => "Metallic Black"
+            };
         }
 
         public static List<string> FetchVehicleColorList()
