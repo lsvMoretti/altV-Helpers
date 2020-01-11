@@ -37,7 +37,8 @@ function enterVehicleAsDriver() {
                 lastDistance = distance;
             }
         });
-
+		
+        if (closestVehicle == undefined) return;
         var vehicle = closestVehicle.scriptID;
 
         alt.log('Vehicle: ' + vehicle);
@@ -87,6 +88,7 @@ function enterVehicleAsPassenger() {
         }
     });
 
+    if (closestVehicle == undefined) return;
     var vehicle = closestVehicle.scriptID;
 
     alt.log('Vehicle: ' + vehicle);
